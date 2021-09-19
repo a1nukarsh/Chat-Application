@@ -1,0 +1,21 @@
+#m-container {
+  margin: 3% auto 1% auto;
+  border: 1px solid black;
+  height: 72vh;
+  overflow-y: auto;
+}
+.message {
+  background-color: rgb(63, 214, 214);
+  width: 36%;
+  margin: 1% 1px;
+  padding: 1%;
+  border-radius: 18px;
+}
+.left {
+  float: left;
+  clear: both;
+}
+.right {
+  float: right;
+  clear: both;
+}
