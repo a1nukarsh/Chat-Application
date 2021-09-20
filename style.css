@@ -19,3 +19,10 @@
   float: right;
   clear: both;
 }
+#send-container{
+    display: flex;
+}
+#send-container input{
+    margin: auto 1%;
+}
+

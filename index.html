@@ -1,38 +1,48 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="http:://localhost:8000/socket.io.socket.io.js"></script>
     <script src="./client.js"></script>
     <link rel="stylesheet" href="./style.css">
     <title>One Chats | Free Anonymous Chats</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="./chat-1873536_1280.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
-            One Chats
-          </a>
+            <a class="navbar-brand" href="#">
+                <img src="./chat-1873536_1280.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                One Chats
+            </a>
         </div>
-      </nav>
-      <div class="container">
-          <div class="container" id="m-container">
-              <div class="message left">Anukarsh: Hey Bro How are you</div>
-              <div class="message right">Aayushi: Hey</div>
-          </div>
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Type your message here" aria-describedby="button-addon2">
-            <button class="btn btn-primary" type="submit" id="button-addon2">Send</button>
-          </div>
-      </div>
-      
+    </nav>
+    <div class="container">
+        <div class="container" id="m-container">
+            <div class="message left">Anukarsh: Hey Bro How are you</div>
+            <div class="message right">Aayushi: Hey</div>
+        </div>
+        <div class="input-group mb-3">
+            <form class="container" action="#" id="send-container">
+                <input type="text" class="form-control" placeholder="Type your message here"
+                    aria-describedby="button-addon2" id="msgInp">
+                <button class="btn btn-primary" type="submit" id="button-addon2">Send</button>
+            </form>
+        </div>
+    </div>
 
-   
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-  </body>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
